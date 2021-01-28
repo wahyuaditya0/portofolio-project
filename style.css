@@ -27,6 +27,10 @@
     
 }
 
+
+
+
+
 .isi-atas{
     font-family: 'Dosis', sans-serif;
     text-color: white !important;
@@ -34,10 +38,10 @@
 
  .display-4{
     font-family: 'Playfair Display', serif;
-     padding-top:250px ;
+     padding-top:100px ;
      color: white;
      text-align: center;
-     font-size: 60px;
+     font-size: 70px !important;
      
  }
  
@@ -45,14 +49,21 @@
     text-align: center;
     font-size: 20px;
     color: white;
+    font-weight: lighter;
     
+ }
+
+ .uk-position-bottom{
+    margin-top: 300px !important;
  }
 
  .konek{
     text-align: center;
-    margin-top: 220px;
-    font-size: 20px;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    font-size: 17px;
     color: white;
+    font-weight: lighter;
  }
 
 
@@ -125,6 +136,7 @@
 
 .judul {
     font-family: 'Playfair Display', serif;
+    text-align: center !important;
 }
 
 .isi{
@@ -166,6 +178,54 @@ html {
     scroll-behavior: smooth;
 }
 
+.footer {
+    text-align: center;
+    padding: 0px;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.judulslider{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+    text-shadow:5px 5px 10px black;
+}
+.isislider {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow:5px 5px 10px black;
+}
+
+.container-footer{
+    width: auto;
+    height: 70px;
+    background-color: black;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    margin
+}
+
+footer p {
+    text-align: center;  
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+
 @media (min-width: 1200px) { 
 
 .gambar{
@@ -173,7 +233,7 @@ html {
     margin-top: -100px;
 }
 .jumbotron-1{
-    height: 800px;
+    height: 850px;
 }
 
 .jumbotron-2{
@@ -214,7 +274,8 @@ html {
 
 .judul {
     font-family: 'Playfair Display', serif;
-    color: rgb(99, 99, 99)
+    color: rgb(99, 99, 99);
+    text-align: left !important;
 }
 
 .isi{
@@ -249,8 +310,8 @@ html {
    
 }
 
-html {
-    scroll-behavior: smooth;
+section {
+    transition-timing-function:ease;
 }
 
 .isi-atas{
@@ -259,7 +320,61 @@ html {
  }
 
  .tinggislider{
-     height: 150px
+     height: 100px !important;
  }
+
+ .carousel-item {
+    height: 700px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 700px;
+  }
+
+  .judulslider{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 30px;
+    text-shadow:5px 5px 10px black;
+}
+.isislider {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.display-4{
+    font-family: 'Playfair Display', serif;
+     padding-top:250px ;
+     color: white;
+     text-align: center;
+     font-size: 60px;
+     
+ }
+ 
+ .lead{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+ }
+
+ .nav-link:hover::after{
+     content: "";
+     display: block;
+     border-bottom: 3px solid white;
+     width: 50%;
+     margin: auto;
+     padding-bottom: 5px;
+     margin-bottom: -8px;
+ }
+
+.uk-position-center a{
+    margin-top: 50px;
+}
+
 }
 
