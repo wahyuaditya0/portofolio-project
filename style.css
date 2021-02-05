@@ -27,6 +27,9 @@
     
 }
 
+html{
+     scroll-behavior: smooth;
+}
 
 
 
@@ -376,5 +379,8 @@ section {
     margin-top: 50px;
 }
 
+html{
+     scroll-behavior: smooth;
+}
 }
 

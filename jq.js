@@ -10,4 +10,10 @@
 //   $("body").scrollTop(elemenHref.offset().top - 100);
 // });
 
-$("href").easeInOutExpo;
+// $("href").easeInOutExpo;
+
+// $(".main").onepage_scroll({
+//   easing: "ease-in", // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+// });
+
+$('.page-scroll').slideUp(1000, method, callback});
